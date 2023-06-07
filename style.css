@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family= Aoboshi +One & family= Roboto:wght@100 & display=swap');
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Aoboshi One', serif;
 }
 
 header {
@@ -47,5 +52,47 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-family: 'Aoboshi One', serif;
     
+}
+
+.corpo{
+    background-color: #0C98C5;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Aoboshi One', serif;
+}
+
+.Pesquisa{
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: red;
+    border-style: solid;
+    font-family: 'Aoboshi One', serif;
+}
+.button{
+    background-color:#5606FF ;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Aoboshi One', serif;
+    
+}
+.saibmais{
+    border: 2px ;
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(207, 207, 207);
+    font-family: 'Aoboshi One', serif;
+}
+p{
+    font-size: 30px;
 }
