@@ -75,13 +75,17 @@ nav a:hover {
     font-family: 'Aoboshi One', serif;
 }
 .button{
-    background-color:#5606FF ;
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
     color: white;
     border-radius: 50px;
     font-weight: 600;
     font-size: 25px;
     font-family: 'Aoboshi One', serif;
-    
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+    width: 180px;
 }
 .saibmais{
     border: 2px ;
@@ -93,6 +97,13 @@ nav a:hover {
     border-color: rgb(207, 207, 207);
     font-family: 'Aoboshi One', serif;
 }
-p{
+.texto{
     font-size: 30px;
+    background-color: ;
+    font-family: 'Aoboshi One', serif;
+}
+
+.titulos{
+    background-color:;
+    font-family: 'Aoboshi One', serif;
 }
