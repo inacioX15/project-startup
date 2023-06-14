@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family= Aoboshi +One & family= Roboto:wght@100 & display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Aoboshi One', serif;
+}
+
+.GOD{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header {
@@ -19,7 +29,7 @@ header {
     display: flex;
     gap: 20px;
     margin: 0;
-    
+
 }
 
 nav {
@@ -40,24 +50,34 @@ nav a {
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
+    color: white;
 }
 
 nav a:hover {
-    color: #4044A0;
+    color: rgb(170, 170, 170);
+    font-size: large;
 }
 
-.Meio{
-    margin: 15px;
+.Meio {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     font-family: 'Aoboshi One', serif;
+
+}
+
+.FotoPrin{
+    display: flex;
+    flex-direction: column;
+    width: 1451px;
+    align-items: center;
+    flex-wrap: wrap;
     
 }
 
-.corpo{
-    background-color: #0C98C5;
+.corpo {
+    background-color: #06baf6;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -65,17 +85,19 @@ nav a:hover {
     justify-content: center;
     justify-content: space-around;
     font-family: 'Aoboshi One', serif;
+
 }
 
-.Pesquisa{
+.Pesquisa {
     border-width: 3px;
     border-radius: 50px;
     border-color: red;
     border-style: solid;
     font-family: 'Aoboshi One', serif;
 }
-.button{
-    background-color:rgb(0, 0, 0) ;
+
+.button {
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 50px;
     font-weight: 600;
@@ -85,11 +107,12 @@ nav a:hover {
     align-items: center;
     width: 180px;
 }
-.saibmais{
+
+.saibmais {
     flex-direction: column;
     display: flex;
-    justify-content:flex-start;
-    border: 2px ;
+    justify-content: flex-start;
+    border: 2px;
     width: 400px;
     height: 600px;
     background-color: aliceblue;
@@ -101,17 +124,62 @@ nav a:hover {
     align-items: center;
 
 }
-.texto{
+
+.texto {
     font-size: 30px;
     font-family: 'Aoboshi One', serif;
     text-align: center;
 }
 
-.titulos{
+.titulos {
     font-family: 'Aoboshi One', serif;
 }
 
-.foto{
-    width: 400px;
+.foto {
+    width: 395px;
     flex-direction: column;
+    padding: 0,001px;
+    border-radius: 4px;
+    border-bottom: solid 3px rgb(0, 60, 255);
+}
+
+.saibmaism {
+    width: 596px;
+    height: 686px;
+    border: 2px solid;
+    border-color: rgb(207, 207, 207);
+    border-radius: 55px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+    
+}
+
+.pequeno {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content:space-between;
+    padding: 80px;
+    flex-wrap: wrap;
+
+}
+
+.fotoG{
+    width: 596px;
+    height: 334px;
+    padding-bottom: 50px;
+
+}
+
+.Grande{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 80px;
 }
