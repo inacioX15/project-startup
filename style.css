@@ -88,16 +88,17 @@ nav a:hover {
 .saibmais{
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     border: 2px ;
     width: 400px;
     height: 600px;
     background-color: aliceblue;
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 50px;
     border-color: rgb(207, 207, 207);
     font-family: 'Aoboshi One', serif;
-    taext-align: center;
+    text-align: center;
+    align-items: center;
 
 }
 .texto{
