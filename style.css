@@ -97,6 +97,8 @@ nav a:hover {
     border-radius: 25px;
     border-color: rgb(207, 207, 207);
     font-family: 'Aoboshi One', serif;
+    taext-align: center;
+
 }
 .texto{
     font-size: 30px;
