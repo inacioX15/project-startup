@@ -10,7 +10,7 @@ body {
     font-family: 'Aoboshi One', serif;
 }
 
-.GOD{
+.GOD {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -46,7 +46,6 @@ nav {
 nav a {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    color: black;
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
@@ -67,13 +66,13 @@ nav a:hover {
 
 }
 
-.FotoPrin{
+.FotoPrin {
     display: flex;
     flex-direction: column;
-    width: 1451px;
+    width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
 .corpo {
@@ -85,19 +84,14 @@ nav a:hover {
     justify-content: center;
     justify-content: space-around;
     font-family: 'Aoboshi One', serif;
+    color: white;
 
 }
 
-.Pesquisa {
-    border-width: 3px;
-    border-radius: 50px;
-    border-color: red;
-    border-style: solid;
-    font-family: 'Aoboshi One', serif;
-}
+
 
 .button {
-    background-color: rgb(0, 0, 0);
+    background-color: #0eaade;
     color: white;
     border-radius: 50px;
     font-weight: 600;
@@ -138,7 +132,7 @@ nav a:hover {
 .foto {
     width: 395px;
     flex-direction: column;
-    padding: 0,001px;
+    padding: 0, 001px;
     border-radius: 4px;
     border-bottom: solid 3px rgb(0, 60, 255);
 }
@@ -156,30 +150,59 @@ nav a:hover {
     text-align: center;
     align-items: center;
     background-color: aliceblue;
-    
-    
+
+
 }
 
 .pequeno {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 80px;
     flex-wrap: wrap;
 
 }
 
-.fotoG{
+.fotoG {
     width: 596px;
     height: 334px;
     padding-bottom: 50px;
 
 }
 
-.Grande{
+.Grande {
     display: flex;
     flex-direction: row;
     gap: 150px;
     padding: 80px;
+}
+
+/** PARTE DO CSS DO AGENDAMENTOS**/
+
+.Pesquisa {
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #d7d7d7;
+    border-style: solid;
+    font-family: 'Aoboshi One', serif;
+    width: 996px;
+    right: 230px;
+    height: 83px;
+}
+.Titulo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
 }
