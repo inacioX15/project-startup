@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(315deg, rgba(0, 0, 0, 1) 0%, rgba(6, 25, 43, 1) 47%, rgba(0, 31, 68, 1) 54%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./background.jpg);
+    background-size: 100%;
+
+    /*background: rgb(0,0,0);
+    background: linear-gradient(315deg, rgba(0,0,0,1) 0%, rgba(6,25,43,1) 47%, rgba(0,31,68,1) 54%, rgba(0,212,255,1) 100%); 
+    */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form {
+    /*-webkit-box-shadow: -50px -50px 25px -30px rgba(0,0,0,0.67);
+    -moz-box-shadow: -70px -70px 25px 30px rgba(0,0,0,0.67);
+    box-shadow: -20px -20px 20px -3px rgba(22, 22, 22, 0.67);
+
+    */
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 60px 50px 30px,
+        rgba(0, 0, 0, 0.12) 60px 50px 6px,
+        rgba(0, 0, 0, 0.17) 60px 50px 13px,
+        rgba(0, 0, 0, 0.09) 60px 50px 5px;
+
+    color: aliceblue;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    border: solid 3px rgb(15, 60, 68);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: rgb(242, 246, 252);*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: e;
+    /*border: solid rgb(255, 255, 255);*/
+    width: 520px;
+    /*border-bottom: 10px solid rgb(0, 67, 112);*/
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 40px;
+
+}
+
+.prnch {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-bottom: 30px;
+
+}
+
+.prnch input {
+    color: aliceblue;
+    transition: 0.3s;
+    border-style: none;
+    background-color: rgba(199, 242, 243, 0.082);
+    border-radius: 0px 30px 30px 30px;
+    border: solid 1px rgb(25, 111, 160);
+    height: 32px;
+}
+
+.prnch input::placeholder {
+    color: rgb(216, 221, 219);
+    padding-left: 10px;
+
+}
+
+.rodape {
+    padding: 10px;
+}
+
+.bto {
+    position: absolute;
+    margin-top:100px ;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    width: 150px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: rgb(19, 81, 119);
+    border-style: none;
+    font-size: 25px;
+}
+
+h1 {
+    color: rgb(164, 199, 199);
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 3px solid rgba(0, 153, 255, 0.384);
+}
+
+.form a {
+    color: rgb(0, 195, 255);
+}
+
+.prnch p {
+    font-size: small;
+    text-align: center;
+}
+
+.prnch input:hover {
+    transition: 0.3s;
+    border-style: none;
+    background-color: rgba(199, 242, 243, 0.082);
+    border-radius: 0px 30px 30px 30px;
+    border: solid 1px rgb(25, 111, 160);
+    height: 42px;
+}
+.bto:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    width: 170px;
+    border-radius: 50px;
+    height: 60px;
+    background-color: rgb(19, 81, 119);
+    color: white;
+    border-style: none;
+    font-size: 30px;
+}
+.btod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

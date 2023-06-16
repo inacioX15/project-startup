@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family= Aoboshi +One & family= Roboto:wght@100 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
 
 * {
     margin: 0%;
@@ -51,7 +52,7 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    
+
 }
 
 nav a:hover {
@@ -237,7 +238,7 @@ nav a:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-bottom: 30px;
-    
+
 }
 
 .Teste {
@@ -272,9 +273,9 @@ nav a:hover {
     font-size: 20px;
 }
 
-.saibmaism2{
+.saibmaism2 {
     width: 450px;
-    height: 592px;
+    height: 470px;
     border: 2px solid;
     border-color: rgb(207, 207, 207);
     border-radius: 50px;
@@ -291,30 +292,138 @@ nav a:hover {
     flex-direction: column;
 }
 
-.boddy{
+.boddy {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  padding: 40px;
+    padding: 40px;
 }
-.Fotinhas{
+
+.Fotinhas {
     width: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.ftn2{
+
+.ftn2 {
     border-bottom: 30px;
     display: flex;
     padding-bottom: 30px;
     justify-content: space-evenly;
-    
+
+
+}
+
+.saibmais2 h1 {
+
+    padding-top: 30px;
+}
+
+.button2 {
+    background-color: #06baf6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    transition: 0.3s;
+    height: 30px;
+
+    display: inline-block;  
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;  
+    -webkit-transition-property: -webkit-transform;  
+    transition-property: transform;  
+    -webkit-transform: translateZ(0);  
+    -ms-transform: translateZ(0);  
+    transform: translateZ(0);  
+    box-shadow: 0px 4px 2px 0px rgba(98, 98, 98, 0.69);
+}
+
+.button2:hover {
+    height: 30px;
+    transition: 0.3s;
+    background-color: #15a7d8;
+    color: rgb(210, 218, 226);
+    /*width: 160px;
+    height: 40px;*/
+    font-size: 125%;
+
+-webkit-transform: translateY(-5px);  
+    -ms-transform: translateY(-5px);  
+    transform: translateY(-5px);
+    /*box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  */
+}
+
+/** CSS do roda pé **/
+.rp {
+    width: 100%;
+    height: 130px;
+    border: solid;
+    background-color: #06baf6;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rp2 {
+    width: 100%;
+    height: 599px;
+    border: solid;
+    background-color: black;
+}
+
+.rpt{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#06baf6;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+}
+
+.rpi{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.rp3{
+    display: flex;
+    flex-direction: column;
     
 }
 
-.saibmais2 h1{
+.rpn{
+    font-size: 60px;
+    color:white;
 
-    padding-top: 30px;
+}
+.rp4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/**CSS do link_agend **/
+
+.fodase{
+    font-size: 70px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tt{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 80px;
+    padding-left: 10px;
 }
