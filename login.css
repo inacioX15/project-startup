@@ -189,7 +189,7 @@ h1 {
     border-radius: 132px;
     border: solid black 3px;
     transition: 0.2s;
-    transform: scale(1.15);
+    transform: rotate(1turn);
 
 }
 
